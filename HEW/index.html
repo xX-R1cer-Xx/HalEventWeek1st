@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>五味焼</title>
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0" /> -->
     <title>五味焼</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -21,26 +21,61 @@
         <div id="menu">
             <ul>
                 <li><a href="">トップ</a></li>
-                <li><a href="">注文</a></li>
-                <li><a href="">メニュー</a></li>
-                <li><a href="">アクセス</a></li>
+                <li><a href="#main2">メニュー</a></li>
+                <li><a href="#main3">注文</a></li>
+                <li><a href="#main4">アクセス</a></li>
             </ul>
         </div>
     </header>
 
-    <div id="main1">
-        <ul class="slider">
-            <li><a href="#"><img src="images/original.jpg" alt="image01"></a></li>
-            <li><a href="#"><img src="images/02.jpg" alt="image02"></a></li>
-            <li><a href="#"><img src="images/03.jpg" alt="image03"></a></li>
-            <li><a href="#"><img src="images/04.jpg" alt="image04"></a></li>
-            <li><a href="#"><img src="images/05.jpg" alt="image05"></a></li>
-            <li><a href="#"><img src="images/06.jpg" alt="image06"></a></li>
-            <li><a href="#"><img src="images/07.jpg" alt="image07"></a></li>
-            <li><a href="#"><img src="images/08.jpg" alt="image08"></a></li>
-        </ul>
+<div id="main1">
+    <div id="onmain1">
+        <p><img src="images/logo.png" alt="五味焼"></p>
     </div>
 
+    <div id="slide">
+        <ul class="slider">
+            <li><a href="#"><img src="images/original.jpg" alt="image01"></a></li>
+            <li><a href="#"><img src="images/okonomi2.jpg" alt="image01"></a></li>
+        </ul>
+    </div>
+</div>
+
+    <div id="main2">
+        <!-- <p><img src="images/original.jpg" alt="image01"></p> -->
+        <div class="foods">
+            <div class="foodpic"><img src="images/takoyaki.jpg" alt="image01"></div>
+            <div class="foodtitle"><p>五味焼</p></div>
+            <div class="foodtext"><p>当店自慢のたこ焼きです(8個入り)<br>ソース味、マヨネーズでお召し上がりください。</p></div>
+            <div class="foodprice"><p>380円</p></div>
+        </div>
+
+        <div class="foods">
+            <div class="foodpic"><img src="images/okonomi.jpg" alt="image01"></div>
+            <div class="foodtitle"><p>お好み焼き</p></div>
+            <div class="foodtext"><p>当店の隠し味と山芋の入った好み焼きの定番　</p></div>
+            <div class="foodprice"><p>620円</p></div>
+        </div>
+
+        <div class="foods">
+            <div class="foodpic"><img src="images/beer.jpg" alt="image01"></div>
+            <div class="foodtitle"><p>ビール</p></div>
+            <div class="foodtext"><p>アサヒスーパードライ さらりとした飲み口<br>キレ味さえる、いわば辛口の生ビールです。</p></div>
+            <div class="foodprice"><p>480円</p></div>
+        </div>
+    </div>
+
+    <div id="main3">
+        <div id="order">
+            <div id="deliverimg">あ</div>
+            <div id="delivertitle">b</div>
+            <div id="delivertext">c</div>
+        </div>
+    </div>
+
+    <div id="main4">
+        <div id="map"><p>あうえお</p></div>
+    </div>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 

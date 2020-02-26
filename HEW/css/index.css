@@ -26,14 +26,14 @@ header {
     align-items: bottom;
 }
 
-h1{
+h1 {
     display: inline;
     font-size: 0;
 }
 
-h1 img{
+h1 img {
     display: flex;
-    width:200px;
+    width: 200px;
 }
 
 #menu {
@@ -46,15 +46,14 @@ h1 img{
 }
 
 #menu li {
-    display:inline-block;
+    display: inline-block;
     width: 400px;
-    height: 40px;
     text-decoration: none;
     list-style: none;
-    margin:3px;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
-    padding-top: 10px;
-    border:1px solid #000;
+    border: 1px solid #000;
     background-color: #FFCC00;
 }
 
@@ -64,18 +63,141 @@ h1 img{
     color: #000;
 }
 
-#main1{
+#main1 {
     padding-top: 10vh;
-    width:100%;
+}
+
+#onmain1 {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255, 0.2);
+    z-index: 998;
+    position: absolute;
+    color: white;
+    justify-content: center;
+}
+
+#onmain1 img {
+    margin-top: 20%;
+    text-align: center;
+    width: 800px;
+}
+
+/* スライダー */
+
+#slide {
+    width: 100%;
     height: 90vh;
 }
 
-.slider{
+.slider {
     margin: 0 auto;
     width: 100%;
 }
-.slider img{
+
+.slider img {
     height: 90vh;
     width: 100%;
     object-fit: cover;
 }
+
+/* スライダー終わり */
+
+/* 2ページ目 */
+
+#main2 {
+    display: inline-flex;
+    width: 100%;
+    height: 90vh;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    /* background-color: green; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 999;
+    background-color: #f1d606;
+    /* デバッグ用
+    background-color: cyan; */
+}
+
+.foods {
+    background-color: #fff;
+    border: solid #000;
+    height: 65vh;
+    margin: 10px auto;
+}
+
+.foodpic {
+    margin: 20px;
+}
+
+.foodpic img {
+    width: 400px;
+    border: solid black 1px;
+}
+
+.foodtitle {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.foodtext {
+    position: absolute;
+    margin-top: 3vh;
+    padding-left: 4%;
+}
+
+.foodprice {
+    text-align: center;
+    margin-top: 100px;
+    color: #ff0000;
+    font-size: 5vh;
+}
+
+#main3 {
+    display: flex;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    height: 100vh;
+    background-color: grey;
+    z-index: 998;
+    justify-content: center;
+    align-items: center;
+}
+
+#order {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto 1fr;
+	grid-template-areas:
+		"areaA areaB"
+		"areaA areaC";
+}
+
+#deliverimg {
+    grid-area: areaA;
+    background: #f88;
+    width: 10px;
+}
+
+
+#delivertitle {
+    grid-area: areaB;
+	background: #8f8;
+}
+
+#delivertext {
+    grid-area: areaC;
+	background: #88f;
+}
+
+#main4 {
+    margin-top: -10vh;
+    height: 90vh;
+    background-color: pink;
+    z-index: 997;
+}
+
+#main4 p {}
