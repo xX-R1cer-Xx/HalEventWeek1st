@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>五味焼</title>
+    <title>戦国屋</title>
     <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
-    <title>五味焼</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="js/slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
     <link href="js/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
@@ -16,11 +15,11 @@
 
 <body>
     <header>
-        <a href="#"><img src="images/logo.png" class="logo" alt="五味焼"></a>
+        <h1><a href="#"><img src="images/logo.png" class="logo" alt="戦国屋"></a></h1>
         <nav>
             <ul>
                 <li><a href="#page2">メニュー</a></li>
-                <li><a href="#page2">注文</a></li>
+                <li><a href="pages/order.php">注文</a></li>
                 <li><a href="#page3">配達状況</a></li>
                 <li><a href="#page4">アクセス</a></li>　
             </ul>
@@ -94,13 +93,13 @@
                     <p><img src="images/deliver.jpg" alt="image01"></p>
                 </div>
                 <div id="deliverbutton">
-                    <form action="" method="post">
+                    <form action="pages/order.php" method="post">
                         <p>
                             こちらで配送状況を確認できます！
                         </p>
 
                         <p>
-                            <input class="orderform" type="text" name="name" value="注文番号：0000-abcd">
+                            <input class="orderform" type="text" name="name" value="注文番号:0000">
                             <input class="orderform1" type="submit" value="確認">
                         </p>
                     </form>

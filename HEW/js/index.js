@@ -1,10 +1,8 @@
 $('.slider').slick({
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
     draggable: true,
-    speed: 400,
-    fade: true,
+    speed: 800,
     arrows: false,
-    cssEase: 'linear'
 });
