@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+#page1 {
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#logo {
+    background-color: #000;
+}
+
+#logo img {
+    width: 200px
+}
+
+.title {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 5vh;
+}
+
+#menu {
+    display: inline-flex;
+    width: 90%;
+    height: 100%;
+    /* background-color: green; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom:10vh;
+    /* デバッグ用
+    background-color: cyan; */
+}
+
+.foods {
+    background-color: #fff;
+    border: solid #000;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+
+.foodpic img {
+    width: 350px;
+    height: 250px;
+    border: solid black 1px;
+}
+
+.foodtitle {
+    font-size: 2vh;
+    text-align: center;
+    color: #000;
+}
+
+.foodtext {
+    text-align: center;
+    color: #000;
+}
+
+.foodprice {
+    text-align: center;
+    color: #ff0000;
+    font-size: 3vh;
+}
+
+#page2 {
+    width: 100%;
+    height: 60vh;
+}
+
+#page2 p {
+    background-color: white;
+}
+
+
+#profile{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+#profile input{
+    margin:3vh;
+    font-size: 4vh;
+    width:50%;
+    background-color: lightgrey;
+}
+
+#submitbutton input{
+    width: 30%;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+#customerlist tr td{
+    border: 1px black solid;
+}

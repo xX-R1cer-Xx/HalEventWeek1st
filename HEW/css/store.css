@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+#main1{
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    width: 80%;
+    background-color: #d3d3d3;
+    font-size: 5vh;
+}
+
+#main1 span{
+    color: #ff0000;
+}
+
+#main1 a {
+    font-size: 2vh;
+}
+
+#customerlist{
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#customerlist tr td{
+    margin: 100px;
+    text-align: center;
+    border: 1px black solid;
+    font-size: 3vh;
+}
