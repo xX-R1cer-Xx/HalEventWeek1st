@@ -94,3 +94,14 @@ body {
     width:50%;
     background-color: lightgrey;
 }
+
+#submitbutton input{
+    width: 30%;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+#customerlist tr td{
+    border: 1px black solid;
+}

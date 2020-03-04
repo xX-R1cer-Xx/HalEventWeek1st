@@ -81,9 +81,9 @@
             <div class="foodtext">
                 <p>アサヒスーパードライ<br>さらりとした飲み口</p>
             </div>
-            <div class="foodprice">
+            <!-- <div class="foodprice">
                 <p>480円</p>
-            </div>
+            </div> -->
         </div>
 
 
@@ -93,13 +93,13 @@
                     <p><img src="images/deliver.jpg" alt="image01"></p>
                 </div>
                 <div id="deliverbutton">
-                    <form action="pages/order.php" method="post">
+                    <form action="pages/progress.php" method="post">
                         <p>
                             こちらで配送状況を確認できます！
                         </p>
 
                         <p>
-                            <input class="orderform" type="text" name="name" value="注文番号:0000">
+                            <input class="orderform" type="text" name="ordercode" value="注文番号:0000">
                             <input class="orderform1" type="submit" value="確認">
                         </p>
                     </form>
